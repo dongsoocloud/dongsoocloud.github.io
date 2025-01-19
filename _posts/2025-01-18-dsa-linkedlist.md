@@ -100,6 +100,16 @@ class LinkedList:
 
 ---
 
+<script src="https://utteranc.es/client.js"
+        repo="dongsoocloud/blog-comments"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+---
+
 <!-- <br/>
 
 ## **References**
