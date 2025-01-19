@@ -56,6 +56,45 @@ class LinkedList:
             self.tail = new_node
             self.length = 1
 
+    #print each node value on a new line
+    def print_list(self):
+        current = self.current
+        while current:
+            print(current.value)
+            current = current.next
+
+    #lookup element by index
+    def get(self, index) -> Node:
+        #edge case
+        if index < 0 or index >= self.length:
+            return None
+        #traverse the list and find the element at the given index
+        current = self.head
+        for _ in range(index):
+            current = current.next
+        return current
+
+    #append the new node at the end of the list
+    def append(self, value) -> bool:
+        #initialize a new node
+        new_node = Node(value)
+        #case 1) the empty list.
+        if self.length == 0:
+            self.head = new_node
+            self.tail = new_node
+        #case 2) the list has at least one element
+        else:
+            #no need to traverse. Just link the new node to the current tail and assign tail to the new node.
+            self.tail.next = new_node
+            self.tail = new_node
+        #increment length + 1
+        self.length += 1
+        #This is optional, but can be useful for other usages.
+        return True
+
+
+
+
 
 ```
 
