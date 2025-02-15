@@ -1,5 +1,5 @@
 ---
-title: "[Container 컨테이너] Podman 설치 및 Nginx 컨테이너 실행, 중지 및 삭제 방법"
+title: "[Container 컨테이너]  Nginx 컨테이너 실행, 중지 및 삭제 방법"
 date: 2024-08-30 10:00:00 +0900
 categories: [Container, Podman]
 tags: [Container, Podman]
