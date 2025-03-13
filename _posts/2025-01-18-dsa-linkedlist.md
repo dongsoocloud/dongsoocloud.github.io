@@ -92,39 +92,11 @@ class LinkedList:
         #This is optional, but can be useful for other usages.
         return True
 
-    #add the new node at the head of the list
-    def prepend(self, value) -> bool:
-        #initialize a new node
-        new_node = Node(value)
-        #case 1) the empty list
-        if self.length == 0:
-            self.head = new_node
-            self.tail = new_node
-        #case 2) the list has at least one element
-        else:
-            new_node.next = self.head
-            self.head = new_node
-        self.length += 1
-        return True
-
-
-
-
 
 
 
 
 ```
-
----
-
-<script src="https://utteranc.es/client.js"
-        repo="dongsoocloud/blog-comments"
-        issue-term="title"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
 
 ---
 
