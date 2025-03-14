@@ -5,6 +5,9 @@ categories: [Google Cloud Platform, Cloud Run]
 tags: [Google Cloud Platform, Cloud Run, tcpdump]
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2941907865454687"
+     crossorigin="anonymous"></script>
+
 Due to their unique characteristics, serverless services can sometimes exhibit unexpected behavior that wasn’t captured in local test environments. This is especially true when testing a WebSocket application on a serverless platform, where you may encounter various unforeseen issues. These issues can stem from different sources, including the application layer, network layer, or underlying infrastructure of cloud provider's side.
 
 In this post, I will explain how to troubleshoot network issues in a WebSocket application deployed on a serverless computing service. The example will be based on Google Cloud’s serverless platform, Cloud Run[1].

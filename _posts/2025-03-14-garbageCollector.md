@@ -5,6 +5,9 @@ categories: [Programming, Java]
 tags: [Java, Garbage Collector, Memory]
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2941907865454687"
+     crossorigin="anonymous"></script>
+
 How familiar are you with Garbage Collector(GC)?
 Garbage Collection is a process that removes **unreachable** objects on **Heap** area.
 As Heap area on Java memory layout stores instances of any instantiated classes, mostly with 'new' keyword, it has to be reachable from its original source.
