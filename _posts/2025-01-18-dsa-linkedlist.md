@@ -5,6 +5,9 @@ categories: [Data Structure & Algorithms, Data Structure]
 tags: [Data structure, Linked Lists]
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2941907865454687"
+     crossorigin="anonymous"></script>
+
 ## **What is Linked Lists?**
 
 ---
