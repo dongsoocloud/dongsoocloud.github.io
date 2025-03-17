@@ -5,6 +5,9 @@ categories: [Google Cloud Platform, Network]
 tags: [Google Cloud Platform, Cloud Run, network, security]
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2941907865454687"
+     crossorigin="anonymous"></script>
+     
 When deploying a service on Google Cloud or calling an external API, ensuring security is crucial. In particular, when undergoing a security compliance audit, it's important to know which TLS versions and cipher suites your service or an external API is using.
 
 In this post, I'll address three common questions I often encounter in the workplace:
