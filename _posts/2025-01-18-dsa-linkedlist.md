@@ -5,9 +5,6 @@ categories: [Data Structure & Algorithms, Data Structure]
 tags: [Data structure, Linked Lists]
 ---
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2941907865454687"
-     crossorigin="anonymous"></script>
-
 ## **What is Linked Lists?**
 
 ---
@@ -101,8 +98,17 @@ class LinkedList:
 
 ```
 
----
+--
 
+<script src="https://utteranc.es/client.js"
+        repo="dongsoocloud/blog-comments"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2941907865454687"
+     crossorigin="anonymous"></script>
 <!-- <br/>
 
 ## **References**

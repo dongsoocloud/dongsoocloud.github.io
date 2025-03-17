@@ -70,3 +70,13 @@ And once the age of instance reaches the certain age, (in the graph, 8) the old 
    - Above Java 9 default GC
    - Heap area is divided into **Regions** and there are multiple Eden, Survivor, Old Generation areas.
    - JVM scanning at the regional level
+
+--
+
+<script src="https://utteranc.es/client.js"
+        repo="dongsoocloud/blog-comments"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
