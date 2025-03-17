@@ -2,7 +2,7 @@
 title: "[GCP] Troubleshooting Websocket App Deployed on the Serverless Environment."
 date: 2025-03-13 16:10:00 +0900
 categories: [Google Cloud Platform, Cloud Run]
-tags: [Google Cloud Platform, Cloud Run, tcpdump]
+tags: [Google Cloud Platform, Cloud Run, network]
 ---
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2941907865454687"
