@@ -99,17 +99,22 @@ During the TLS handshake, the client proposes its highest supported TLS version,
 
 ## Q3. Can I configure the cipher suites used by my Cloud Run or App Engine server?
 
-Yes, you can configure cipher suites for your Cloud Run or App Engine service by placing a Google Cloud Load Balancer in front of it and applying an SSL policy.
+Yes, you can configure cipher suites for your Cloud Run or App Engine service by placing a Google Cloud Load Balancer in front of it and applying an SSL policy. 
 
 Steps to configure an SSL policy:
 
-1. Set up a Google Cloud Load Balancer in front of your Cloud Run or App Engine service.
-
-2. Create an SSL policy specifying the allowed TLS versions and cipher suites.
-
+1. Set up a Google Cloud Load Balancer in front of your Cloud Run or App Engine service.[1]
+- To use serverless services as a backend for the load balancer, you must create a Serverless Network Endpoint Group (Serverless NEG).[2]
+2. Create an SSL policy specifying the allowed TLS versions and cipher suites.[3]
 3. Attach the SSL policy to the Load Balancer.
+4. Restrict direct access to your service domain by configuring ingress settings to allow traffic only from the load balancer. This ensures that all requests pass through the load balancer, enforcing the SSL policy.
 
 By doing this, you can enforce stricter security policies and ensure your service only supports the TLS versions and cipher suites that meet your security requirements.
+
+
+[1] https://cloud.google.com/load-balancing/docs/https/setup-global-ext-https-serverless  
+[2] https://cloud.google.com/load-balancing/docs/negs/serverless-neg-concepts  
+[3] https://cloud.google.com/load-balancing/docs/use-ssl-policies  
 
 --
 
