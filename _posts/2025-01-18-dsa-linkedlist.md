@@ -6,7 +6,6 @@ tags: [Data structure, Linked Lists]
 ---
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2941907865454687"
      crossorigin="anonymous"></script>
-![HitCount](http://hits.dwyl.com/dongsoocloud.github.io/posts/garbageCollector.svg)
 
 ## **What is Linked Lists?**
 
